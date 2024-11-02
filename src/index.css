@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wallet-button {
+  background: linear-gradient(to right, #8b5cf6, #6366f1) !important;
+  @apply px-4 py-2 rounded-lg text-white font-medium transition-transform hover:scale-105;
+}
+
+/* Override wallet adapter styles for better UI */
+.wallet-adapter-button {
+  @apply rounded-lg font-medium !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  @apply rounded-xl !important;
+}
+
+.wallet-adapter-modal-button-close {
+  @apply rounded-lg !important;
+}
+
+.wallet-adapter-dropdown {
+  @apply font-sans !important;
+}
